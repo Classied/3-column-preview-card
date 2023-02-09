@@ -10,36 +10,64 @@ body{
 
 .card-container{
     width: 100%;
+    /* width: 60%; DESKTOP STYLES  */
+    /* margin-left: 275px; DESKTOP STYLES  */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .button{
-border: 1px solid black;
 border-radius: 30px;
-padding: 0 10px;
+padding: 1px 20px;
 width: 15%;
-}
-
-/* preview card styles-- MOBILE */
-
-.sedan-wrapper{
-background-color: hsl(31, 77%, 52%);
-}
-
-.suv-wrapper{
-    background-color: hsl(184, 100%, 22%);
-
-
-}
-
-.luxury-wrapper{
-    background-color: hsl(179, 100%, 13%);
-
+background-color: hsl(0, 0%, 95%);
 }
 
 .button p{
     text-align: center;
 }
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+/* preview card styles-- MOBILE */
+
+.sedan-wrapper{
+background-color: hsl(31, 77%, 52%);
+/* width: 33%; DESKTOP  */
+}
+
+.sedan-wrapper .button p{
+    color: hsl(31, 77%, 52%);
+}
+
+.suv-wrapper{
+    background-color: hsl(184, 100%, 22%);
+    /* width: 33%; DESKTOP */
+}
+
+.suv-wrapper .button p {
+color: hsl(184, 100%, 22%);
+}
+
+
+.luxury-wrapper{
+    background-color: hsl(179, 100%, 13%);
+    /* width: 33%; DESKTOP */
+}
+
+.luxury-wrapper .button p{
+    color: hsl(179, 100%, 13%);
+}
+
