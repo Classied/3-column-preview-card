@@ -5,11 +5,41 @@
 body{
     background-color: #f2f2f2;
     font-size: 15px;
+    margin: 0;
 }
 
 .card-container{
     width: 100%;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+}
+
+.button{
+border: 1px solid black;
+border-radius: 30px;
+padding: 0 10px;
+width: 15%;
+}
+
+/* preview card styles-- MOBILE */
+
+.sedan-wrapper{
+background-color: hsl(31, 77%, 52%);
+}
+
+.suv-wrapper{
+    background-color: hsl(184, 100%, 22%);
+
+
+}
+
+.luxury-wrapper{
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+.button p{
+    text-align: center;
 }
