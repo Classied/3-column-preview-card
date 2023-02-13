@@ -24,7 +24,7 @@ body {
     overflow: hidden;
 }
 
-.card-container p{
+.card-container p {
     line-height: 25px;
 }
 
@@ -36,13 +36,13 @@ body {
     margin-bottom: 50px;
     width: 40%;
     background-color: hsl(0, 0%, 95%);
-    
+
 }
 
 .button p {
     text-align: center;
     padding: 10px 0;
-   
+
 }
 
 h1 {
