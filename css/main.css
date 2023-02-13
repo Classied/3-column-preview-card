@@ -2,14 +2,14 @@
 
 /* BASE STYLES */
 
-body{
+body {
     background-color: #f2f2f2;
     font-size: 15px;
     margin: 0;
     /* width: 375px; */
 }
 
-.card-container{
+.card-container {
     /* width: 60%; DESKTOP STYLES  */
     /* margin-left: 275px; DESKTOP STYLES  */
     display: flex;
@@ -18,28 +18,29 @@ body{
     align-items: center;
     box-sizing: border-box;
     width: 60%;
-/* margin: 60px 50px;
-padding: 0 10px; */
-
+    margin: 60px 73px;
+    border: 1px solid black;
+    border-radius: 30px;
 }
 
-.button{
-border-radius: 30px;
-padding: 1px 20px;
-width: 15%;
-background-color: hsl(0, 0%, 95%);
+
+.button {
+    border-radius: 30px;
+    padding: 1px 20px;
+    width: 15%;
+    background-color: hsl(0, 0%, 95%);
 }
 
-.button p{
+.button p {
     text-align: center;
 }
 
-h1{
+h1 {
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', sans-serif;
 }
 
-p{
+p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -47,31 +48,31 @@ p{
 
 /* preview card styles-- MOBILE */
 
-.sedan-wrapper{
-background-color: hsl(31, 77%, 52%);
-/* width: 33%; DESKTOP  */
+.sedan-wrapper {
+    background-color: hsl(31, 77%, 52%);
+    /* width: 33%; DESKTOP  */
+
 }
 
-.sedan-wrapper .button p{
+.sedan-wrapper .button p {
     color: hsl(31, 77%, 52%);
 }
 
-.suv-wrapper{
+.suv-wrapper {
     background-color: hsl(184, 100%, 22%);
     /* width: 33%; DESKTOP */
 }
 
 .suv-wrapper .button p {
-color: hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
 }
 
 
-.luxury-wrapper{
+.luxury-wrapper {
     background-color: hsl(179, 100%, 13%);
     /* width: 33%; DESKTOP */
 }
 
-.luxury-wrapper .button p{
+.luxury-wrapper .button p {
     color: hsl(179, 100%, 13%);
 }
-
