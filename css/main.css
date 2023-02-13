@@ -17,27 +17,38 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    width: 60%;
-    margin: 60px 73px;
-    border: 1px solid black;
-    border-radius: 30px;
+    width: 80%;
+    margin: 60px 20px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-container p{
+    line-height: 25px;
 }
 
 
 .button {
     border-radius: 30px;
-    padding: 1px 20px;
-    width: 15%;
+    padding: 0 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 40%;
     background-color: hsl(0, 0%, 95%);
+    
 }
 
 .button p {
     text-align: center;
+    padding: 10px 0;
+   
 }
 
 h1 {
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
 }
 
 p {
@@ -51,8 +62,12 @@ p {
 .sedan-wrapper {
     background-color: hsl(31, 77%, 52%);
     /* width: 33%; DESKTOP  */
+    padding-left: 45px;
+    padding-right: 40px;
 
 }
+
+
 
 .sedan-wrapper .button p {
     color: hsl(31, 77%, 52%);
@@ -61,6 +76,8 @@ p {
 .suv-wrapper {
     background-color: hsl(184, 100%, 22%);
     /* width: 33%; DESKTOP */
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .suv-wrapper .button p {
@@ -71,6 +88,8 @@ p {
 .luxury-wrapper {
     background-color: hsl(179, 100%, 13%);
     /* width: 33%; DESKTOP */
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .luxury-wrapper .button p {
