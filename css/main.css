@@ -6,7 +6,6 @@ body {
     background-color: #f2f2f2;
     font-size: 15px;
     margin: 0;
-    /* width: 375px; */
 }
 
 .card-container {
@@ -107,4 +106,43 @@ img {
 
 .luxury-wrapper .button p {
     color: hsl(179, 100%, 13%);
+}
+
+/* DESKTOP STYLES */
+@media only screen and (min-width:1280px){
+    .card-container {
+        /* width: 60%; DESKTOP STYLES  */
+        /* margin-left: 275px; DESKTOP STYLES  */
+        /* display: flex; */
+        /* flex-flow: row wrap; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* box-sizing: border-box; */
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        /* border: 1px solid black; */
+        /* border-radius: 30px; */
+        /* overflow: auto; */
+    }
+
+    .sedan-wrapper {
+        width: 15%; 
+        padding-left: 45px;
+        padding-right: 40px;
+    
+    }
+
+    .suv-wrapper {
+        width: 15%;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .luxury-wrapper {
+        width: 16%;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
 }
